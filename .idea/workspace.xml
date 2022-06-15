@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac7c2f6-0ae3-47cb-977b-2fcc0e85cd55" name="Changes" comment="Testes em cascatas">
+    <list default="true" id="fac7c2f6-0ae3-47cb-977b-2fcc0e85cd55" name="Changes" comment="Testes em cascatas - parte 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/junit/EntendendoJUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/junit/EntendendoJUnitTest.java" afterDir="false" />
     </list>
@@ -39,7 +39,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.EntendendoJUnitTest">
+  <component name="RunManager" selected="JUnit.EntendendoJUnitTest.testesReais">
     <configuration name="EntendendoJUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="funcionamento-do-junit" />
       <extension name="coverage">
@@ -87,8 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EntendendoJUnitTest.testesReais" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="funcionamento-do-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.example.junit.EntendendoJUnitTest" />
+      <option name="METHOD_NAME" value="testesReais" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EntendendoJUnitTest.testesReais" />
         <item itemvalue="JUnit.EntendendoJUnitTest" />
         <item itemvalue="JUnit.EntendendoJUnitTest.outroTeste" />
         <item itemvalue="JUnit.EntendendoJUnitTest.testandoInstrucoes" />
@@ -111,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655193466861</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Testes em cascatas - parte 2">
+      <created>1655193729725</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655193729725</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,7 +151,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testes em cascatas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testes em cascatas" />
+    <MESSAGE value="Testes em cascatas - parte 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testes em cascatas - parte 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/funcionamento_do_junit$EntendendoJUnitTest_outroTeste.ic" NAME="EntendendoJUnitTest.outroTeste Coverage Results" MODIFIED="1655192494348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

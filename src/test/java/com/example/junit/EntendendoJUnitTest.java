@@ -34,6 +34,7 @@ public class EntendendoJUnitTest {
         System.out.println("Testando outra coisa");
     }
 
+    @Test
     public void testesReais(){
         String nome = String.format("%s", "Alexandre");
         Assert.assertEquals("Alexandre", nome);
